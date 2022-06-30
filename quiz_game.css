@@ -1,0 +1,120 @@
+body{
+    font-family: 'Comfortaa', cursive;
+}
+
+.body_background{
+    background-image: url("bg.png");
+}
+
+h1{
+   color: rgb(4, 255, 0);
+   font-size: 60px;
+}
+
+.login_div1 , .login_div2
+	{
+		background: white;
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+	}
+
+
+#player1_name , #player2_name
+{
+	display: inline-block;
+	margin-left: 20px;
+}
+#word
+{
+	width: 60%;
+}
+#word_display
+{
+	letter-spacing: 5px;
+}
+#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
+}
+
+.both{
+    background-color: rgba(128, 128, 128, 0.664);
+   width: 50%;
+   border: solid white 5px;
+   border-radius: 20px;
+
+}
+
+h1{
+    font-family: 'Russo One', sans-serif;
+}
+
+.login_div1{
+    width: 80%;
+}
+
+.login_div2{
+    width: 80%;
+}
+
+#player1_name_input {
+	font-size: 15px;
+	line-height: 20px;
+	width: 80%;
+	height: 50px;
+	color: black;
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(223, 205, 205);
+    outline: none;
+ }
+
+ #player2_name_input {
+	font-size: 15px;
+	line-height: 20px;
+	width: 80%;
+	height: 50px;
+	color: black;
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(223, 205, 205);
+    outline: none;
+ }
+
+ [placeholder]:focus::-webkit-input-placeholder {
+    transition: text-indent 0.4s 0.4s ease; 
+    text-indent: -100%;
+	opacity: 1;
+	color: white;
+ }
+
+ .btn-group button {
+	background-color: #04AA6D; /* Green background */
+	border: 1px solid green; /* Green border */
+	color: white; /* White text */
+	padding: 10px 24px; /* Some padding */
+	cursor: pointer; /* Pointer/hand icon */
+	float: left; /* Float the buttons side by side */
+  }
+  
+  /* Clear floats (clearfix hack) */
+  .btn-group:after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+  
+  .btn-group button:not(:last-child) {
+	border-right: none; /* Prevent double borders */
+  }
+  
+  /* Add a background color on hover */
+  .btn-group button:hover {
+	background-color: #3e8e41;
+  }
